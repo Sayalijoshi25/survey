@@ -1,6 +1,6 @@
 ---
 - name: Hello Git
-  hosts: all
+  hosts:  '{{ host }}'
   vars: 
      nick_name:
   tasks:
