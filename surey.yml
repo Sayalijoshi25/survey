@@ -4,4 +4,4 @@
   tasks:
      - name: This is my First Demo
        debug:
-         msg: "Hello {{nick_name}}"
+         msg: "Hello {{ host }}"
